@@ -22,6 +22,7 @@ if __name__ == '__main__':
     start_handler = CommandHandler('start', start)
     #start_handler = CommandHandler('clayton', clayton)
     #start_handler = CommandHandler('james', james)
+    print("Server is running")
 
     dispatcher.add_handler(start_handler)
     updater.start_polling()
